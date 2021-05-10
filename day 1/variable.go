@@ -30,4 +30,13 @@ func main() {
 	// jika ingin  merubah suatu variable tidak bisa menggunaka ':=', karena itu hanya berlaku untuk deklarasi awal saja
 	musicGenre = "Pop Punk"
 	fmt.Println(musicGenre)
+
+	// multiple variable
+	var (
+		firtsName = "Muhammad"
+		lastName  = "Zulfadli"
+	)
+
+	fmt.Println("First Name = ", firtsName)
+	fmt.Println("Last Name = ", lastName)
 }
